@@ -1,0 +1,77 @@
+.dashboard-bg{
+    background-color: antiquewhite;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.container-dashboard{
+    background-color: rgba(199, 199, 199, 0.301);
+    border-radius: 100px;
+}
+.client-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.client-cards .card-one, .card-two, .card-three, .card-four{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 30px;
+}
+.card-one{
+    background-color: rgb(105, 105, 253);
+}
+.card-two, .card-three, .card-four{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.client-profile-img img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.client-card{
+    background-color: aliceblue;
+}
+
+.client-work-open{
+    background-color: rgb(208, 210, 212);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.client-work-pending{
+    background-color: rgb(115, 185, 255);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+.recent-completed{
+    background-color: rgb(115, 185, 255);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.worker-work-pending{ 
+    background-color: rgb(115, 185, 255);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 10px; 
+}
+.recent-applied{ 
+    background-color: rgb(115, 185, 255);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 10px; 
+}
+.worker-recent-work{
+    background-color: rgb(208, 210, 212);
+    padding: 30px;
+    border-radius: 30px;
+    margin-top: 10px;
+
+}

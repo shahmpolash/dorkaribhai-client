@@ -1,0 +1,37 @@
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+}
+tr p{
+    font-size: 25px;
+}
+.homePage-Recent-Work{
+    background-color: rgb(241, 241, 241);
+}
+.recent-work{
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 3px 10px rgba(175, 175, 175, 0.2);
+}
+.work-name p{
+    font-size: 20px;
+}
+.work-name a:hover{
+    color: orangered;
+}
+h2{
+    font-weight: 600;
+    
+}
+
+.apply-btn:hover{
+    transform: translateY(-5px);
+}
+
+.button-Link p{
+    color: white;
+}

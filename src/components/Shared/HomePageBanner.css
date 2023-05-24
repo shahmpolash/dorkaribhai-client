@@ -1,0 +1,30 @@
+.bannerPart{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.bannerPart img{
+    width: 800px;
+    height: 100%
+}
+
+.bannerPart h3{
+    color: orangered;
+}
+.bannerPart h1{
+    font-size: 75px;
+}
+.bannerPart p{
+    font-size: 22px;
+}
+
+.buttons{
+    display: flex;
+}
+.buttons:hover{
+    transform: translateY(-5px);
+}
+.buttons p{
+    color: white;
+}

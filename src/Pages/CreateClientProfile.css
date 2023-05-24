@@ -1,0 +1,13 @@
+.client-form{
+    display: block;
+    
+}
+
+.client-form input, textarea{
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+
+} 
